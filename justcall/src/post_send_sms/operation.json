@@ -1,0 +1,5 @@
+{
+	"name": "post_send_sms",
+	"title": "Send SMS/MMS",
+	"description": "Utilize this endpoint to send SMS messages via the JustCall API and leverage it for setting up SMS automations in a third-party tool as well."
+}

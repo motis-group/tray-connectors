@@ -1,0 +1,5 @@
+{
+	"name": "put_a_call",
+	"title": "Update a call",
+	"description": "Utilize this endpoint to modify the notes, disposition, or rating linked to a call."
+}

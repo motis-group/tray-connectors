@@ -1,0 +1,5 @@
+{
+	"name": "post_check_reply",
+	"title": "Check reply",
+	"description": "Check the response for a specific SMS sent to a user by using the unique ID of the SMS. This endpoint returns the most recent inbound SMS from the associated contact."
+}

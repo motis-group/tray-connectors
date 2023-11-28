@@ -1,0 +1,5 @@
+{
+	"name": "get_all_texts",
+	"title": "List all texts",
+	"description": "Retrieve all text messages linked to an account or refine the message selection as needed by utilizing the various query parameter fields."
+}

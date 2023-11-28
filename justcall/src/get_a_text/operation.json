@@ -1,0 +1,5 @@
+{
+	"name": "get_a_text",
+	"title": "Get a text",
+	"description": "Use this endpoint to access SMS data, including information like direction, associated agent number and delivery status."
+}

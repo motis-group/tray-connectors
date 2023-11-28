@@ -1,0 +1,5 @@
+{
+	"name": "get_call_recording",
+	"title": "Download call recording",
+	"description": "Download the recording associated with a call by using the unique ID of the call."
+}

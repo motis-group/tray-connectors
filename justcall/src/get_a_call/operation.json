@@ -1,0 +1,5 @@
+{
+	"name": "get_a_call",
+	"title": "Get a call",
+	"description": "Utilize this endpoint for retrieval of data for a Call, including details such as duration, direction, status, timestamps, notes, and dispositions."
+}
