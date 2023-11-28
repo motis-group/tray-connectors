@@ -1,5 +1,9 @@
 # Changelog
 
+## [Feature] - 2023-11-27
+
+- Added a meme endpoint
+
 ## [Fix] - 2023-08-23
 
 - Fixed an authentication error when listing models which caused a crash

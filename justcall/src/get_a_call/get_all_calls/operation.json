@@ -1,5 +1,0 @@
-{
-	"name": "get_all_calls",
-	"title": "List all calls",
-	"description": "Retrieve all calls linked to an account or refine the call selection as needed by utilizing the numerous query parameter fields."
-}
