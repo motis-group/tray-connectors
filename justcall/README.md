@@ -1,6 +1,8 @@
 # Welcome to the Stripe Extension
 ### Getting Started
 
+![Alt text](/metadata/1.png)
+
 1. Head over to your Stripe Dashboard.
 2. Navigate to Developers > API Keys.
 3. For the stripeLiveApiKey preference variable, enter your live API key (Secret Key).
