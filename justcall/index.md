@@ -7,4 +7,4 @@
 4. For the stripeTestApiKey preference variable, enable Test Mode and then copy over the test API Key (Secret Key).
 5. Done! Enjoy easy access to your Stripe Dashboard!
 
-Lots of love ❤️ Motis Group
+Lots of love, Motis Group
