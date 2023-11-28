@@ -1,0 +1,5 @@
+{
+	"name": "get_all_applications",
+	"title": "List all applications",
+	"description": "This method lists all applications for a candidate."
+}

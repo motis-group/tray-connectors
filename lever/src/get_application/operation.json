@@ -1,0 +1,5 @@
+{
+    "name": "get_application",
+    "title": "Retrieve a single application",
+    "description": "This method returns the full application record for a single application."
+}
