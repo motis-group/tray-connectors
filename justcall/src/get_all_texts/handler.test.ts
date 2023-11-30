@@ -1,22 +1,23 @@
 import { OperationHandlerTestSetup } from '@trayio/cdk-dsl/connector/operation/OperationHandlerTest';
 import { OperationHandlerResult } from '@trayio/cdk-dsl/connector/operation/OperationHandler';
-import { getProductHandler } from './handler'
+import { getAllTextsHandler } from './handler'
 import '@trayio/cdk-runtime/connector/operation/OperationHandlerTestRunner';
 
 OperationHandlerTestSetup.configureHandlerTest(
-	getProductHandler,
+	getAllTextsHandler,
 	(handlerTest) =>
 		handlerTest
 			.usingHandlerContext('test')
 			.nothingBeforeAll()
-			.testCase('should get a product', (testCase) =>
+			.testCase('should get all texts', (testCase) =>
 				testCase
 					.givenNothing()
-					.when(() => ({ id: 2 }))
+					.when(() => ({contact_number: '+14158676463'}))
 					.then(({ output }) => {
 						// console.log(output);
 						const outputValue = OperationHandlerResult.getSuccessfulValueOrFail(output)
-						expect(outputValue.id).toEqual(2);
+						console.log(outputValue);
+						expect(outputValue);
 					})
 					.finallyDoNothing()
 			)

@@ -1,4 +1,4 @@
-export type GetProductOutput = {
+export type GetCallOutput = {
 	id: number;
 	title: string;
 };

@@ -1,3 +1,3 @@
-export type GetProductInput = {
+export type GetTextInput = {
 	id: number;
 };
