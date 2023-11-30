@@ -1,3 +1,3 @@
-export type GetProductInput = {
+export type GetCallRecordingInput = {
 	id: number;
 };

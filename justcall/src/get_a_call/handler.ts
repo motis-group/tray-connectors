@@ -8,17 +8,14 @@ export const getCallHandler =
         handler.usingHttp((http) =>
             http.get('https://api.justcall.io/v2/calls/:id')
                 .handleRequest((ctx, input, request) => {
-                    // Add id
-                    return request.addPathParameter(':id', input.id.toString())
-//                    // Handle adding path parameters
-                    // if (input) {
-                    //     Object.keys(input).forEach((key: string) => {
-                    //         const keyInput = input as { [key: string]: unknown };
-                    //         request.addQueryString(key, `${keyInput[key]}`);
-                    //     });
-                    // }
-                    // Handle adding headers
-                   
+                    const { id, ...otherInputs } = input;
+                    Object.entries(otherInputs).forEach(([key, value]) => {
+                        request = request.addQueryString(key, `${value}`);
+                    });
+
+                    return request
+                        .withBearerToken(ctx.auth!.user.access_token)
+                        .addPathParameter('id', id.toString());
                 }
                 )
                 .handleResponse((response) => response.parseWithBodyAsJson())
