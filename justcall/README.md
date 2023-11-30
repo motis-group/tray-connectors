@@ -1,5 +1,3 @@
-![just-call-logo](/metadata/justcall.svg)
-
 # Just Call
 ### Interact with Justcall's API right within Tray
 
